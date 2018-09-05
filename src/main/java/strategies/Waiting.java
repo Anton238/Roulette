@@ -38,7 +38,6 @@ public class Waiting extends Strategy {
         return null; //wait, no bet
     }
 
-
     @Override
     public int nextBetSum(Player p) {
         return baseBet;

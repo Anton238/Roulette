@@ -55,5 +55,4 @@ public abstract class Strategy {
     public int getBaseBet() {
         return baseBet;
     }
-
 }

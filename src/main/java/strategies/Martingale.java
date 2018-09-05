@@ -26,11 +26,10 @@ public class Martingale extends Strategy {
         if (Statistics.getStatistics().size() <= 0)
             return minBet;
         else {
-            if (!Statistics.isLastWin(p)) {
+            if (!Statistics.isLastWin(p))
                 currentBet = currentBet * 2;
-            } else {
+            else
                 currentBet = minBet;
-            }
         }
         return currentBet;
     }

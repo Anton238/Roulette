@@ -8,6 +8,7 @@ import java.util.LinkedList;
 public class Statistics {
 
     private static LinkedList<StatisticsEntry> statistics = new LinkedList<>();
+
     final static int CAPACITY = 7;
 
     public static void removeFirst() {

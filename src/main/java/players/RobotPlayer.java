@@ -19,7 +19,6 @@ public class RobotPlayer extends Player {
         this.strategy = strategy;
     }
 
-
     @Override
     public Bet getNextBet(int minBet, int maxBet, RouletteGame game) {
         if (playerMoney < minBet) {
@@ -63,7 +62,6 @@ public class RobotPlayer extends Player {
     private void resetStrategy() {
         setStrategy(getRandomStrategy(strategy.getBaseBet()));
     }
-
 
     @Override
     public String toString() {

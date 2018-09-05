@@ -15,10 +15,6 @@ public class StatisticsEntry {
         this.winPlayers = players;
     }
 
-    public HashSet<Player> getWinPlayers() {
-        return winPlayers;
-    }
-
     public boolean isWinner(Player p) {
         return winPlayers.contains(p);
     }
