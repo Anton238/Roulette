@@ -28,7 +28,7 @@ public class Cansellation extends Strategy {
     @Override
     public Bet getNextBetType() {
         // random type
-        return super.getNextBetTypeDef();
+        return getNextBetTypeDef();
     }
 
     @Override
