@@ -7,12 +7,12 @@ import statistics.Statistics;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+public class Cancellation extends Strategy {
 
-public class Cansellation extends Strategy {
     final LinkedList<Integer> baseNums;
     LinkedList<Integer> currentNums;
 
-    public Cansellation(int baseBet) {
+    public Cancellation(int baseBet) {
         super(baseBet);
         baseNums = new LinkedList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
         this.currentNums = new LinkedList<>(baseNums);
@@ -27,7 +27,7 @@ public class Cansellation extends Strategy {
 
     @Override
     public Bet getNextBetType() {
-        // random type
+        //random type
         return getNextBetTypeDef();
     }
 
@@ -47,7 +47,7 @@ public class Cansellation extends Strategy {
 
     @Override
     public String toString() {
-        return "Cansellation{" +
+        return "Canсellation{" +
                 '}';
     }
 }

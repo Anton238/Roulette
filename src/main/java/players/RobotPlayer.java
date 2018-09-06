@@ -54,7 +54,7 @@ public class RobotPlayer extends Player {
             case SYSTEM1326:
                 return new System1326(baseBet);
             case CANCELLATION:
-                return new Cansellation(baseBet);
+                return new Cancellation(baseBet);
         }
         return null;
     }

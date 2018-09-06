@@ -2,7 +2,7 @@ import bets.*;
 import field.Table;
 import org.junit.Assert;
 import org.junit.Test;
-import strategies.Cansellation;
+import strategies.Cancellation;
 import strategies.Strategy;
 
 
@@ -30,7 +30,7 @@ public class BetGeneratorTest {
     @Test
     public void testCancelationNextBetType() {
         Table.populateTable();
-        Strategy s = new Cansellation(20);
+        Strategy s = new Cancellation(20);
         Bet bet = s.getNextBetType();
         System.out.println(bet);
     }
