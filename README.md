@@ -1,4 +1,4 @@
-# ***Roulette.java***
+# ***Roulette***
 
 This is Java based project simulating game of Roulette as played in most
 American casinos.
