@@ -94,11 +94,9 @@ Each bet is sum of the first and last numbers in the last. In this case 1+9 is 1
 
 ## **Getting Started**
 
-Run: _src\roulete\game\GameManager.java main_.
+Run: _src\roulette\game\GameManager.java main_.
 You will be asked to enter information for  Person Player
 and number of auto Robot Players. Then you will be asked to choose the rates.
-
-
 
 ## **Running the tests**
 
