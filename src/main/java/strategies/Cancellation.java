@@ -47,7 +47,7 @@ public class Cancellation extends Strategy {
 
     @Override
     public String toString() {
-        return "Canсellation{" +
+        return "Cancellation{" +
                 '}';
     }
 }

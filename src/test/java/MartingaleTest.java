@@ -3,7 +3,6 @@ import players.Player;
 import players.RobotPlayer;
 import strategies.Martingale;
 
-
 // robot player with martingale strategy
 public class MartingaleTest {
     public static void main(String[] args) {

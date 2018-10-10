@@ -8,7 +8,6 @@ import strategies.Strategy;
 
 public class BetGeneratorTest {
 
-
     @Test
     public void testSplit() {
         Table.populateTable();
@@ -28,7 +27,7 @@ public class BetGeneratorTest {
     }
 
     @Test
-    public void testCancelationNextBetType() {
+    public void testCancellationNextBetType() {
         Table.populateTable();
         Strategy s = new Cancellation(20);
         Bet bet = s.getNextBetType();
@@ -56,12 +55,13 @@ public class BetGeneratorTest {
     }
 
     @Test
-    public void testcornerBet() {
+    public void testCornerBet() {
         Table.populateTable();
         RandomBetGenerator generator = new RandomBetGenerator();
         Bet bet = generator.generateRandomCornerBet(50);
         Assert.assertTrue(Validator.cornerCheck((CornerBet) bet));
     }
+
 
     @Test
     public void testEvenOddBet() {
